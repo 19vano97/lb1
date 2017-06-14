@@ -37,24 +37,5 @@ public class text400 {
                 System.out.println((s.charAt(i)));
             }
         }
-
-
-       /* Map<Character, Integer> result = new LinkedHashMap<>();
-
-        hm.entrySet().stream()
-                .sorted(Map.Entry.<Character, Integer>comparingByValue().reversed())
-                .forEachOrdered(x -> result.put(x.getKey(), x.getValue()));
-
-        System.out.println(result);*/
-
-       /* Pattern pattern = Pattern.compile("м");
-        Matcher matcher = pattern.matcher(s);
-        int n = 0;
-        while (matcher.find()) {
-            //System.out.println(matcher.group());
-            n++;
-        }
-        System.out.println("N = " + n);*/
-
     }
 }

@@ -26,11 +26,8 @@ public class zadacha {
         int dannoeRast;
 
         obshiyPut = T * (V1 + V2);
-
         System.out.println("Общий путь= " + obshiyPut);
-
         dannoeRast = Math.abs(S - obshiyPut);
-
         System.out.println("Данное растояние: " + dannoeRast);
     }
 }

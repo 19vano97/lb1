@@ -5,13 +5,14 @@ package ua.lb;
  */
 public class HourlyWorker {
 
-
+    public String name = "Олег Подорожник";
     public int srednKolChasov = 8;
     public int oneHour = 1;
     public int kolChasov = 9;
-    public int zarplPerHour = 60;
+    public int zarplPerHour = 10;
     public int zarplata;
     public int procent;
+    public int zarplataPerM;
 
 
     public HourlyWorker(){
@@ -23,12 +24,13 @@ public class HourlyWorker {
             zarplata = (zarplPerHour * srednKolChasov) + procent;
 
         }
+        zarplataPerM = zarplata * 20;
     }
 
     @Override
     public String toString() {
-        return "HourlyWorker{" +
-                "Зарплата= " + zarplata + " грн" +
-                '}';
+        return ("Имя сотрудника по часовой оплаты: " +name +
+        "\nКоличество отработанных часов: " + kolChasov +
+                "\nИтоговая месячная зарплата: " + zarplataPerM);
     }
 }

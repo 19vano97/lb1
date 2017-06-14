@@ -32,8 +32,5 @@ public class zadacha {
         dannoeRast = Math.abs(S - obshiyPut);
 
         System.out.println("Данное растояние: " + dannoeRast);
-
-
-
     }
 }
